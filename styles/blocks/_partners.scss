@@ -1,0 +1,24 @@
+.partners {
+  background-color: var(--cotton-soft);
+  margin-left: -50px;
+  margin-right: -50px;
+  padding: 45px 72px;
+  margin-bottom: 121px;
+
+  &__title {
+    text-align: center;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: var(--charcoal-dusk);
+    font-weight: 800;
+    margin-bottom: 40px;
+  }
+
+  &__list {
+    @include flex-space-between;
+  }
+
+  &__item {}
+}
+
+.container {}

@@ -1,0 +1,31 @@
+.welcom {
+  display: grid;
+  grid-template-columns: 40% 60%;
+  margin-bottom: 114px;
+  grid-gap: 150px;
+
+
+  &__title {
+    margin: auto;
+    color: var(--charcoal-dusk);
+    text-align: center;
+    font-size: 41px;
+    font-weight: 700;
+    line-height: 46.2px;
+    letter-spacing: 1.25px;
+  }
+
+  &__text {
+    color: var(--mocha-shadow);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25.92px;
+    width: 650px;
+    height: 100px;
+    text-align: justify;
+      /* выравнивание по ширине */
+    padding-right: 70px;
+    
+
+  }
+}

@@ -1,0 +1,119 @@
+.footer {
+  padding-top: 80px;
+  background-color: var(--mocha-shadow);
+  
+  
+  &__content {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    margin-bottom: 115px;
+  }
+
+  &__newsletter {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__title {
+    color: var(--cotton-soft);
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 57.8px;
+    letter-spacing: 0.7px;
+    margin-bottom: 11px;
+  }
+
+  &__text {
+    color: var(--milk-haze);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 62px;
+  }
+
+
+  & form button, & form input{
+    background: var(--milk-haze);
+  }
+  & form input {
+    margin-right: -5px;
+    width: 347px;
+    height: 60px;
+    color: rgba(0, 0, 0, 0.50);
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 57.8px;
+    letter-spacing: 0.7px;
+  }
+
+  & form button {
+    width: 101px;
+    height: 60px;
+    color: var(--mocha-shadow);
+    text-align: center;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+
+  &__links {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  &__first-column, &__second-column, &__third-column {
+    & h4 {
+      color: var(--cotton-soft);
+      font-size: 12px;
+      font-weight: 700;
+      line-height: 20.4px;
+      letter-spacing: 0.5px;
+      text-transform: uppercase;
+
+    }
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    color: rgba(245, 241, 233, 0.60);
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 30.6px;
+  }
+  
+  &__countries {
+    padding-top: 150px;
+  }
+
+  &__img-wrapper {
+    display: flex;
+    gap: 24px;
+  }
+
+
+  &__legal {
+    @include flex-space-between;
+    background-color: var(--heather-gray);
+    margin-right: -48px;
+    margin-left: -48px;
+    padding: 20px 96px;
+
+    & p {
+      padding-top: 20px;
+    }
+    & p, .footer__menu{
+      color: rgba(252, 250, 246, 0.50);
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 27.2px;
+    };
+
+  }
+
+  &__menu {
+    display: flex;
+    gap: 30px;
+  }
+}
+

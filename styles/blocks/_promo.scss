@@ -1,0 +1,152 @@
+.promo {
+  background-color: var(--linen);
+  padding: 70px 0 140px 0;
+  margin-left: -50px;
+  margin-right: -50px;
+
+
+  &__title {
+    color: var(--charcoal-dusk);
+    text-align: center;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 48px;
+    margin-bottom: 53px;
+  }
+
+  &__color-list {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    margin-bottom: 45px;
+  }
+
+
+  &__color-1, &__color-2, &__color-3, &__color-4, 
+  &__color-5, &__color-6, &__color-7,&__color-8  {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+  }
+  &__color-1 {
+    background-color: var(--peach-sand);
+  }
+
+  &__color-2 {
+    background-color: var(--steel-blue);
+  }
+
+  &__color-3 {
+    background-color: var(--burnt-sienna);
+  }
+
+  &__color-4 {
+    background-color: var(--sage-stone);
+  }
+
+  &__color-5 {
+    background-color: var(--vivid-red);
+  }
+
+  &__color-6 {
+    background-color: var(--linen-warm);
+  }
+
+  &__color-7 {
+    background-color: var(--graphite-gray);
+  }
+
+  &__color-8 {
+    background-color: var(--lavender-mist);
+  }
+    
+
+  &__img {
+    position: relative;
+    content: '';
+
+    & img{
+      display: block;
+      margin: 0 auto 0 35%;
+    }
+    
+  }
+}
+
+.text-1, .text-2, .text-3, .text-4, .text-5, .text-6{
+  position: absolute;
+  text-align: center;
+  color: var(--taupe-earth);
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 15.48px;
+  text-transform: uppercase;
+}
+
+.text-1 {
+  top: 80px;
+  left: 380px;
+}
+
+.text-2 {
+  left: 460px;
+  top: 350px;
+}
+
+.text-3 {
+  top: 500px;
+  left: 380px;
+}
+
+.text-4 {
+  top: 50px;
+  right: 400px;
+}
+
+.text-5 {
+  top: 300px;
+  right: 380px;
+}
+
+.text-6 {
+  top: 430px;
+  right: 345px;
+}
+
+
+.cube-1, .cube-2, .cube-3, .cube-4, .cube-5, .cube-6 {
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  background: var(--peach-sand);
+}
+
+.cube-1{
+  top: 90px;
+  left: 535px;
+}
+.cube-2 {
+  left: 580px;
+  top: 395px;
+}
+
+.cube-3 {
+  top: 525px;
+  left: 610px;
+}
+
+.cube-4 {
+  top: 100px;
+  right: 430px;
+}
+
+.cube-5 {
+  top: 300px;
+  right: 570px;
+}
+
+.cube-6 {
+  top: 410px;
+  right: 445px;
+}

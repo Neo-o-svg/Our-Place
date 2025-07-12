@@ -1,0 +1,40 @@
+.header {
+  &__top {
+    padding: 25px 0;
+  }
+
+  &__list, &__first-block, &__third-block {
+    display: flex;
+  }
+
+  &__list {
+    justify-content: space-between;
+    align-items: center;
+
+    color: var(--charcoal-dusk);
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 22.1px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+  }
+
+  &__first-block,  &__third-block {
+    gap: 35px;
+  }
+
+  &__item {
+
+    & div {
+      @include flex-center;
+
+      background: var(--terracotta-blush);
+      width: 35px;
+      height: 35px;
+      border-radius: 50%;
+    }
+
+  }
+}
+
+
